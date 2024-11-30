@@ -1,16 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-function App() {
-  return (
-    <div className="App">
-  <ul>
-    <li>Apples</li>
-    <li>Bananas</li>
-    <li>Cherries</li>
-  </ul>
-);
+const myElement = <h1>I Love JSX!</h1>;
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(myElement);
 
-
-export default App;
+              
