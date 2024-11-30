@@ -1,9 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import logo from './logo.svg';
+import './App.css';
 
-const myElement = <h1>I Love JSX!</h1>;
+function App() {
+  return (
+    <div className="App">
+        <h1>Hello World!</h1>
+        <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+    </tr>
+    <tr>
+      <td>Elsa</td>
+    </tr>
+  </table>
+        
+    </div>
+  );
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myElement);
 
-              
+
+export default App;
